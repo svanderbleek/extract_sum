@@ -1,3 +1,5 @@
 # Extract Sum
 
-`cat input | bin/extract_sum`
+```
+cat input | bin/extract_sum
+```
