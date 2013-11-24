@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+numbers = ARGF.read.scan(/\$(\d+(.\d*)?)/).map do |amount, _|
+  amount.to_f
+end
+
+puts numbers.reduce(:+)
